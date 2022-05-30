@@ -25,4 +25,4 @@ while len(myNumbers2) < 2:
     
     myNumbers2.append(newNumber1)
     
-print('Those numbers will win: {} and {}'.format(myNumbers1, myNumbers2))
+print('Those numbers will win fo sure: {} and {}'.format(myNumbers1, myNumbers2))
