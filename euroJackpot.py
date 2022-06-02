@@ -1,7 +1,7 @@
 import random
 
-myNumbers1 = []
-myNumbers2 = []
+myNumbers1 = [51]
+myNumbers2 = [50]
 
 while len(myNumbers1) < 5:
     
@@ -15,7 +15,7 @@ while len(myNumbers1) < 5:
     
 while len(myNumbers2) < 2:
     
-    newNumber1 = random.randint(1,11)
+    newNumber1 = random.randint(1,50)
     
     if newNumber1 in myNumbers2:
         print('Already typed {}'.format(newNumber1))
